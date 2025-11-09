@@ -29,3 +29,14 @@ hookCalls [
 number of tool call executions 2
 number of tool call hook calls 1
 ```
+
+## This is not due to input stream
+
+I also verified that this is not due to input stream being closed.
+
+If we remove the max turn limit `maxTurns: 3`, the last post tool use hook is triggered correctly:
+
+```
+number of tool call executions 3
+number of tool call hook calls 3
+```
