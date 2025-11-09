@@ -1,0 +1,15 @@
+{
+  "name": "claude-agent-sdk-tool-hook-bug",
+  "version": "1.0.0",
+  "description": "Reproduction of Claude Agent SDK tool call hook bug:",
+  "main": "index.js",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.1.30"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npx tsx index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
